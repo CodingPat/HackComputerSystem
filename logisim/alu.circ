@@ -59,41 +59,41 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(380,150)" to="(390,150)"/>
-    <wire from="(380,240)" to="(390,240)"/>
+    <wire from="(230,130)" to="(340,130)"/>
+    <wire from="(260,260)" to="(350,260)"/>
+    <wire from="(260,170)" to="(340,170)"/>
     <wire from="(230,130)" to="(230,220)"/>
     <wire from="(190,260)" to="(260,260)"/>
+    <wire from="(400,150)" to="(420,150)"/>
+    <wire from="(400,240)" to="(420,240)"/>
     <wire from="(190,220)" to="(230,220)"/>
+    <wire from="(230,220)" to="(350,220)"/>
     <wire from="(260,170)" to="(260,260)"/>
-    <wire from="(260,170)" to="(330,170)"/>
-    <wire from="(260,260)" to="(330,260)"/>
-    <wire from="(230,220)" to="(330,220)"/>
-    <wire from="(230,130)" to="(330,130)"/>
-    <comp lib="0" loc="(390,240)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="carry"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(380,150)" name="OR Gate">
+    <comp lib="1" loc="(400,150)" name="XOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(380,240)" name="AND Gate">
+    <comp lib="0" loc="(420,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="sum"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(400,240)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(190,260)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="b"/>
     </comp>
-    <comp lib="0" loc="(390,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="sum"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="0" loc="(190,220)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(420,240)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="carry"/>
+      <a name="labelloc" val="east"/>
     </comp>
   </circuit>
 </project>
